@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha da Ifood: dynamic web page</title>
+    <!--FONTES-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <!--ESTILO-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <div class="container">
+
+            <div class="cabecalho__logoIfood">
+                <figure>
+                    <img src="./imagens/logo.png" alt="Logo Ifood">
+                    <figcaption>Logo Ifood</figcaption>
+                </figure>
+            </div>
+
+            <div class="cabecalho__restaurante">
+                <div class="cabecalho__fundoImagem">
+                    <img src="./imagens/restaurante.png" alt="Restaurant">
+                </div>
+                <p>Restaurante</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <!--Informações do restaurante-->
+        <section class="secaoInfoRestaurante">
+            <div class="container">
+
+                <div class="secaoInfoRestaurante__descricao">
+                    <div class="secaoInfoRestaurante__logoRestaurante">
+                    </div>
+                    <h1 class="secaoInfoRestaurante__nomeRestaurante">Fast Food Gourmet</h1>
+                </div>
+
+                <!--caixa de busca-->
+                <div class="secaoInfoRestaurante__pesquisar">
+                    <button>
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar no cardápio">
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Seção pratos em destaque-->
+        <section class="secaoPratosDestaques">
+
+            <div class="container">
+                <h2 class="secao__Titulo">Destaque</h2>
+
+                <!--Lista de pratos em destaque-->
+                <ul class="secaoPratosDestaque__listaPratos">
+                    <!--<li class="secaoPratosDestaque__itemPrato">
+                        <a href="">
+                            <div class="secaoPratosDestaque__imagemPrato">
+                            </div>
+                            <h3 class="secaoPratosDestaque_nomePrato">Costela Suína com fritas</h3>
+                            <span class="secaoPratosDestaque__precoPrato">R$86.90</span>
+                        </a>
+                    </li>
+                    <li class="secaoPratosDestaque__itemPrato">
+                        <a href="">
+                            <div class="secaoPratosDestaque__imagemPrato">
+
+                            </div>
+                            <h3 class="secaoPratosDestaque_nomePrato">Pimentões Empanados recheados com Brie</h3>
+                            <span class="secaoPratosDestaque__precoPrato">R$45.50</span>
+                        </a>
+                    </li>
+                    <li class="secaoPratosDestaque__itemPrato">
+                        <a href="">
+                            <div class="secaoPratosDestaque__imagemPrato">
+
+                            </div>
+                            <h3 class="secaoPratosDestaque_nomePrato">Torta de limão Siciliano</h3>
+                            <span class="secaoPratosDestaque__precoPrato">R$20.90</span>
+                        </a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </section>
+
+        <!--Seção Sobremesas-->
+
+        <div class="conteudoPrincipal">
+            <div class="container">
+
+                <section class="secaoSobremesas">
+                    <h2 class="secao__Titulo">Sobremesas</h2>
+                    <ul class="secaoSobremesas__listaSobremesa">
+                        <!--
+                        <li class="secaoSobremesas__itemSobremesa">
+                            <a href="">
+                                <div class="secaoSobremesas__descricaoSobremesa">
+                                    <h3>Super Brownie de Chocolate com Sorvete</h3>
+                                    <p> O clássico brownie tamanho grande para os fãs de sobremesa</p>
+                                    <span>R$ 40.00</span>
+                                </div>
+                                <div class="secaoSobremesas__imagemSobremesa">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="secaoSobremesas__itemSobremesa">
+                            <a href="">
+                                <div class="secaoSobremesas__descricaoSobremesa">
+                                    <h3>Café gelado com Chantilly e biscoito</h3>
+                                    <p>Deliciosa combinação de café, chocolate e leite</p>
+                                    <span>R$ 32.00</span>
+                                </div>
+                                <div class="secaoSobremesas__imagemSobremesa">
+                                </div>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </section>
+
+
+
+                <!--Secçaõ carrinho-->
+                <section class="secaoCarrinho">
+                    <h2 class="secaoCarrinho__titulo">Carrinho</h2>
+
+                    <div class="secaoCarrinho__conteudo">
+
+                        <ul class="secaoCarrinho__listaItens">
+
+                            <!--
+                            <li class="secaoCarrinho__Item">
+                                <div class="secaoCarrinho__itemDescricao">
+                                    <h3>Costela Suína com fritas</h3>
+                                    <span class="preco__Item">R$86,90</span>
+                                </div>
+                                <buttonc class="secaoCarrinho__botaoRemover">Remover</button>
+                            </li>
+                            <li class="secaoCarrinho__Item">
+                                <div class="secaoCarrinho__itemDescricao">
+                                    <h3>Torta de limão Siciliano</h3>
+                                    <span class="preco__Item">R$20.90</span>
+                                </div>
+                                <buttonc class="secaoCarrinho__botaoRemover">Remover</button>
+                            </li>
+                            <li class="secaoCarrinho__ItemPreço">
+                                <div class="secaoCarrinho__Preco"> 
+                                    <h3>Preço</h3>
+                                    <span class="preco__Item">R$107,80</span>
+                                </div>
+                            </li>
+                            -->
+                        </ul>
+
+                        <!--Total-->
+
+                        <div class="secaoCarrinho__total">
+                            <p>Total</p>
+                            <span>0,00</span>
+                        </div>
+
+
+                        <div class="secaoCarrinho__formaPagamento">
+                            <button>Escolher forma de pagamento</button>
+                        </div>
+
+                    </div>
+                    
+                </section>
+
+                <!--lista ordenada
+            <ol>  
+                <li>Botafogo, Rio de Janeiro</li>
+                <li>Botafogo, Rio de Janeiro</li>
+                <li>Botafogo, Rio de Janeiro</li>
+            </ol>
+        -->
+
+                <!--Listas não ordenadas
+            <h3>Lista de <strong>linguagens</strong> para <em>aprender</em></h3>
+            <ul>
+                <li>HTML</li>
+                <li>HTML</li>
+                <li>HTML</li>
+            </ul>
+        -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
